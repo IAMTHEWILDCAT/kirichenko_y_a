@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Yurec/CLionProjects/Complex/Complex/Complex.h
+iostream
+-
+string
+-
+math.h
+-
+sstream
+-
+
+/Users/Yurec/CLionProjects/Complex/Complex/Rational.h
+iostream
+-
+string
+-
+math.h
+-
+sstream
+-
+
+/Users/Yurec/CLionProjects/Complex/Complex/main.cpp
+Complex.h
+/Users/Yurec/CLionProjects/Complex/Complex/Complex.h
+Rational.h
+/Users/Yurec/CLionProjects/Complex/Complex/Rational.h
+
